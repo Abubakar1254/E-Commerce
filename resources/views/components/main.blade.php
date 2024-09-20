@@ -1,11 +1,11 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
     
-<!-- blog-list31:56-->
+<!-- index28:48-->
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Blog List || limupa - Digital Products Store eCommerce Bootstrap 4 Template</title>
+        <title>Home Version One || limupa - Digital Products Store eCommerce Bootstrap 4 Template</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
@@ -158,7 +158,7 @@
                                         <option value="40">- - - -  Bed &amp; Bath</option>                     
                                         <option value="41">- - - -  Appliances</option>                 
                                         <option value="11">TV &amp; Audio</option>                  
-                                        <option value="42">- -  SamSung</option>                        
+                                        <option value="42">- -  Chamcham</option>                        
                                         <option value="45">- - - -  Office</option>                     
                                         <option value="47">- - - -  Gaming</option>                 
                                         <option value="48">- - - -  Chromebook</option>                     
@@ -166,7 +166,7 @@
                                         <option value="50">- - - -  Touchscreen</option>                        
                                         <option value="51">- - - -  Ultrabooks</option>                     
                                         <option value="52">- - - -  Blouses</option>                        
-                                        <option value="43">- -  Toshiba</option>                        
+                                        <option value="43">- -  Sanai</option>                        
                                         <option value="53">- - - -  Hard Drives</option>                        
                                         <option value="54">- - - -  Graphic Cards</option>                      
                                         <option value="55">- - - -  Processors (CPU)</option>  
@@ -174,7 +174,7 @@
                                         <option value="57">- - - -  Motherboards</option>                       
                                         <option value="58">- - - -  Fans &amp; Cooling</option> 
                                         <option value="59">- - - -  CD/DVD Drives</option>                      
-                                        <option value="44">- -  Sony Bravia</option>                        
+                                        <option value="44">- -  Meito</option>                        
                                         <option value="60">- - - -  Sound Cards</option>                        
                                         <option value="61">- - - -  Cases &amp; Towers</option>   
                                         <option value="62">- - - -  Casual Dresses</option>                     
@@ -189,7 +189,7 @@
                                         <option value="71">- - - -  7.0 Screen</option>                     
                                         <option value="72">- - - -  9.0 Screen</option>                     
                                         <option value="73">- - - -  Bags &amp; Cases</option>                   
-                                        <option value="67">- -  Camcorders</option>                     
+                                        <option value="67">- -  XailStation</option>                     
                                         <option value="74">- - - -  Batteries</option>                      
                                         <option value="75">- - - -  Microphones</option>                        
                                         <option value="76">- - - -  Stabilizers</option>                        
@@ -274,7 +274,7 @@
                 </div>
                 <!-- Header Middle Area End Here -->
                 <!-- Begin Header Bottom Area -->
-                <div class="header-bottom mb-0 header-sticky stick d-none d-lg-block d-xl-block">
+                <div class="header-bottom header-sticky d-none d-lg-block d-xl-block">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
@@ -284,13 +284,13 @@
                                         <ul>
                                             <li class="dropdown-holder"><a href="index.html">Home</a>
                                                 <ul class="hb-dropdown">
-                                                    <li><a href="index.html">Home One</a></li>
+                                                    <li class="active"><a href="index.html">Home One</a></li>
                                                     <li><a href="index-2.html">Home Two</a></li>
                                                     <li><a href="index-3.html">Home Three</a></li>
                                                     <li><a href="index-4.html">Home Four</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="catmenu-dropdown megamenu-holder"><a href="shop-left-sidebar.html">Shop</a>
+                                            <li class="megamenu-holder"><a href="shop-left-sidebar.html">Shop</a>
                                                 <ul class="megamenu hb-megamenu">
                                                     <li><a href="shop-left-sidebar.html">Shop Page Layout</a>
                                                         <ul>
@@ -356,7 +356,7 @@
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li class="catmenu-dropdown megamenu-static-holder"><a href="index.html">Pages</a>
+                                            <li class="megamenu-static-holder"><a href="index.html">Pages</a>
                                                 <ul class="megamenu hb-megamenu">
                                                     <li><a href="blog-left-sidebar.html">Blog Layouts</a>
                                                         <ul>
@@ -364,7 +364,7 @@
                                                             <li><a href="blog-3-column.html">Blog 3 Column</a></li>
                                                             <li><a href="blog-left-sidebar.html">Grid Left Sidebar</a></li>
                                                             <li><a href="blog-right-sidebar.html">Grid Right Sidebar</a></li>
-                                                            <li class="active"><a href="blog-list.html">Blog List</a></li>
+                                                            <li><a href="blog-list.html">Blog List</a></li>
                                                             <li><a href="blog-list-left-sidebar.html">List Left Sidebar</a></li>
                                                             <li><a href="blog-list-right-sidebar.html">List Right Sidebar</a></li>
                                                         </ul>
@@ -422,209 +422,13 @@
                 <!-- Mobile Menu Area End Here -->
             </header>
             <!-- Header Area End Here -->
-            <!-- Begin Li's Breadcrumb Area -->
-            <div class="breadcrumb-area">
-                <div class="container">
-                    <div class="breadcrumb-content">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li class="active">Blog List</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- Li's Breadcrumb Area End Here -->
-            <!-- Begin Li's Main Blog Page Area -->
-            <div class="li-main-blog-page pt-60 pb-55">
-                <div class="container">
-                    <div class="row">
-                        <!-- Begin Li's Main Content Area -->
-                        <div class="col-lg-12">
-                            <div class="row li-main-content">
-                                <div class="col-lg-12">
-                                    <div class="li-blog-single-item pb-30">
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="li-blog-banner">
-                                                    <a href="blog-details-left-sidebar.html"><img class="img-full" src="images/blog-banner/2.jpg" alt=""></a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="li-blog-content">
-                                                    <div class="li-blog-details">
-                                                        <h3 class="li-blog-heading pt-xs-25 pt-sm-25"><a href="blog-details-left-sidebar.html">blog image post</a></h3>
-                                                        <div class="li-blog-meta">
-                                                            <a class="author" href="#"><i class="fa fa-user"></i>Admin</a>
-                                                            <a class="comment" href="#"><i class="fa fa-comment-o"></i> 3 comment</a>
-                                                            <a class="post-time" href="#"><i class="fa fa-calendar"></i> 25 nov 2018</a>
-                                                        </div>
-                                                        <p>Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus. Cras pretium arcu ex.</p>
-                                                        <a class="read-more" href="blog-details-left-sidebar.html">Read More...</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="li-blog-single-item pb-30">
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="li-blog-gallery-slider slick-dot-style">
-                                                    <div class="li-blog-banner">
-                                                        <a href="blog-details-left-sidebar.html"><img class="img-full" src="images/blog-banner/1.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="li-blog-banner">
-                                                        <a href="blog-details-left-sidebar.html"><img class="img-full" src="images/blog-banner/2.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="li-blog-banner">
-                                                        <a href="blog-details-left-sidebar.html"><img class="img-full" src="images/blog-banner/3.jpg" alt=""></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="li-blog-content">
-                                                    <div class="li-blog-details">
-                                                        <h3 class="li-blog-heading pt-xs-25 pt-sm-25"><a href="blog-details-left-sidebar.html">blog gallery post</a></h3>
-                                                        <div class="li-blog-meta">
-                                                            <a class="author" href="#"><i class="fa fa-user"></i>Admin</a>
-                                                            <a class="comment" href="#"><i class="fa fa-comment-o"></i> 3 comment</a>
-                                                            <a class="post-time" href="#"><i class="fa fa-calendar"></i> 25 nov 2018</a>
-                                                        </div>
-                                                        <p>Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus. Cras pretium arcu ex.</p>
-                                                        <a class="read-more" href="blog-details-left-sidebar.html">Read More...</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="li-blog-single-item pb-30">
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="li-blog-banner embed-responsive embed-responsive-16by9">
-                                                    <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/300107209&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="li-blog-content">
-                                                    <div class="li-blog-details">
-                                                        <h3 class="li-blog-heading pt-xs-25 pt-sm-25"><a href="blog-details-left-sidebar.html">blog audio post</a></h3>
-                                                        <div class="li-blog-meta">
-                                                            <a class="author" href="#"><i class="fa fa-user"></i>Admin</a>
-                                                            <a class="comment" href="#"><i class="fa fa-comment-o"></i> 3 comment</a>
-                                                            <a class="post-time" href="#"><i class="fa fa-calendar"></i> 25 nov 2018</a>
-                                                        </div>
-                                                        <p>Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus. Cras pretium arcu ex.</p>
-                                                        <a class="read-more" href="blog-details-left-sidebar.html">Read More...</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="li-blog-single-item pb-30">
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="li-blog-banner embed-responsive embed-responsive-16by9">
-                                                    <iframe src="https://www.youtube.com/embed/DR2c266yWEA" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="li-blog-content">
-                                                    <div class="li-blog-details">
-                                                        <h3 class="li-blog-heading pt-xs-25 pt-sm-25"><a href="blog-details-left-sidebar.html">blog video post</a></h3>
-                                                        <div class="li-blog-meta">
-                                                            <a class="author" href="#"><i class="fa fa-user"></i>Admin</a>
-                                                            <a class="comment" href="#"><i class="fa fa-comment-o"></i> 3 comment</a>
-                                                            <a class="post-time" href="#"><i class="fa fa-calendar"></i> 25 nov 2018</a>
-                                                        </div>
-                                                        <p>Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus. Cras pretium arcu ex.</p>
-                                                        <a class="read-more" href="blog-details-left-sidebar.html">Read More...</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="li-blog-single-item pb-30">
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="li-blog-banner">
-                                                    <a href="blog-details-left-sidebar.html"><img class="img-full" src="images/blog-banner/5.jpg" alt=""></a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="li-blog-content">
-                                                    <div class="li-blog-details">
-                                                        <h3 class="li-blog-heading pt-xs-25 pt-sm-25"><a href="blog-details-left-sidebar.html">blog fifth post</a></h3>
-                                                        <div class="li-blog-meta">
-                                                            <a class="author" href="#"><i class="fa fa-user"></i>Admin</a>
-                                                            <a class="comment" href="#"><i class="fa fa-comment-o"></i> 3 comment</a>
-                                                            <a class="post-time" href="#"><i class="fa fa-calendar"></i> 25 nov 2018</a>
-                                                        </div>
-                                                        <p>Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus. Cras pretium arcu ex.</p>
-                                                        <a class="read-more" href="blog-details-left-sidebar.html">Read More...</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="li-blog-single-item mb-30">
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="li-blog-banner">
-                                                    <a href="blog-details-left-sidebar.html"><img class="img-full" src="images/blog-banner/6.jpg" alt=""></a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="li-blog-content">
-                                                    <div class="li-blog-details">
-                                                        <h3 class="li-blog-heading pt-xs-25 pt-sm-25"><a href="blog-details-left-sidebar.html">blog second post</a></h3>
-                                                        <div class="li-blog-meta">
-                                                            <a class="author" href="#"><i class="fa fa-user"></i>Admin</a>
-                                                            <a class="comment" href="#"><i class="fa fa-comment-o"></i> 3 comment</a>
-                                                            <a class="post-time" href="#"><i class="fa fa-calendar"></i> 25 nov 2018</a>
-                                                        </div>
-                                                        <p>Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus. Cras pretium arcu ex.</p>
-                                                        <a class="read-more" href="blog-details-left-sidebar.html">Read More...</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Begin Li's Pagination Area -->
-                                <div class="col-lg-12">
-                                    <div class="li-paginatoin-area text-center pt-25">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <ul class="li-pagination-box">
-                                                    <li><a class="Previous" href="#">Previous</a></li>
-                                                    <li class="active"><a href="#">1</a></li>
-                                                    <li><a href="#">2</a></li>
-                                                    <li><a href="#">3</a></li>
-                                                    <li><a class="Next" href="#">Next</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Li's Pagination End Here Area -->
-                            </div>
-                        </div>
-                        <!-- Li's Main Content Area End Here -->
-                    </div>
-                </div>
-            </div>
-            <!-- Li's Main Blog Page Area End Here -->
-            <!-- Begin Footer Area -->
-            <div class="footer">
+
+
+            @yield('main-section')
+
+
+               <!-- Begin Footer Area -->
+               <div class="footer">
                 <!-- Begin Footer Static Top Area -->
                 <div class="footer-static-top">
                     <div class="container">
@@ -850,6 +654,118 @@
                 <!-- Footer Static Bottom Area End Here -->
             </div>
             <!-- Footer Area End Here -->
+            <!-- Begin Quick View | Modal Area -->
+            <div class="modal fade modal-wrapper" id="exampleModalCenter" >
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <div class="modal-inner-area row">
+                                <div class="col-lg-5 col-md-6 col-sm-6">
+                                   <!-- Product Details Left -->
+                                    <div class="product-details-left">
+                                        <div class="product-details-images slider-navigation-1">
+                                            <div class="lg-image">
+                                                <img src="images/product/large-size/1.jpg" alt="product image">
+                                            </div>
+                                            <div class="lg-image">
+                                                <img src="images/product/large-size/2.jpg" alt="product image">
+                                            </div>
+                                            <div class="lg-image">
+                                                <img src="images/product/large-size/3.jpg" alt="product image">
+                                            </div>
+                                            <div class="lg-image">
+                                                <img src="images/product/large-size/4.jpg" alt="product image">
+                                            </div>
+                                            <div class="lg-image">
+                                                <img src="images/product/large-size/5.jpg" alt="product image">
+                                            </div>
+                                            <div class="lg-image">
+                                                <img src="images/product/large-size/6.jpg" alt="product image">
+                                            </div>
+                                        </div>
+                                        <div class="product-details-thumbs slider-thumbs-1">                                        
+                                            <div class="sm-image"><img src="images/product/small-size/1.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="images/product/small-size/2.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="images/product/small-size/3.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="images/product/small-size/4.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="images/product/small-size/5.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="images/product/small-size/6.jpg" alt="product image thumb"></div>
+                                        </div>
+                                    </div>
+                                    <!--// Product Details Left -->
+                                </div>
+
+                                <div class="col-lg-7 col-md-6 col-sm-6">
+                                    <div class="product-details-view-content pt-60">
+                                        <div class="product-info">
+                                            <h2>Today is a good day Framed poster</h2>
+                                            <span class="product-details-ref">Reference: demo_15</span>
+                                            <div class="rating-box pt-20">
+                                                <ul class="rating rating-with-review-item">
+                                                    <li><i class="fa fa-star-o"></i></li>
+                                                    <li><i class="fa fa-star-o"></i></li>
+                                                    <li><i class="fa fa-star-o"></i></li>
+                                                    <li class="no-star"><i class="fa fa-star-o"></i></li>
+                                                    <li class="no-star"><i class="fa fa-star-o"></i></li>
+                                                    <li class="review-item"><a href="#">Read Review</a></li>
+                                                    <li class="review-item"><a href="#">Write Review</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="price-box pt-20">
+                                                <span class="new-price new-price-2">$57.98</span>
+                                            </div>
+                                            <div class="product-desc">
+                                                <p>
+                                                    <span>100% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom. Lorem ipsum dolor sit amet, consectetur adipisicing elit. quibusdam corporis, earum facilis et nostrum dolorum accusamus similique eveniet quia pariatur.
+                                                    </span>
+                                                </p>
+                                            </div>
+                                            <div class="product-variants">
+                                                <div class="produt-variants-size">
+                                                    <label>Dimension</label>
+                                                    <select class="nice-select">
+                                                        <option value="1" title="S" selected="selected">40x60cm</option>
+                                                        <option value="2" title="M">60x90cm</option>
+                                                        <option value="3" title="L">80x120cm</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="single-add-to-cart">
+                                                <form action="#" class="cart-quantity">
+                                                    <div class="quantity">
+                                                        <label>Quantity</label>
+                                                        <div class="cart-plus-minus">
+                                                            <input class="cart-plus-minus-box" value="1" type="text">
+                                                            <div class="dec qtybutton"><i class="fa fa-angle-down"></i></div>
+                                                            <div class="inc qtybutton"><i class="fa fa-angle-up"></i></div>
+                                                        </div>
+                                                    </div>
+                                                    <button class="add-to-cart" type="submit">Add to cart</button>
+                                                </form>
+                                            </div>
+                                            <div class="product-additional-info pt-25">
+                                                <a class="wishlist-btn" href="wishlist.html"><i class="fa fa-heart-o"></i>Add to wishlist</a>
+                                                <div class="product-social-sharing pt-25">
+                                                    <ul>
+                                                        <li class="facebook"><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
+                                                        <li class="twitter"><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
+                                                        <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i>Google +</a></li>
+                                                        <li class="instagram"><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+            <!-- Quick View | Modal Area End Here -->
         </div>
         <!-- Body Wrapper End Here -->
         <!-- jQuery-V1.12.4 -->
@@ -896,5 +812,5 @@
         <script src="js/main.js"></script>
     </body>
 
-<!-- blog-list31:56-->
+<!-- index30:23-->
 </html>
