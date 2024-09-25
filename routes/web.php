@@ -39,14 +39,15 @@ Route::view('/admin/widgets', 'admin.widgets');
 ==================================
 */
 
-Route::view('/', 'Home');
-Route::view('/index', 'index');
+Route::view('/', 'index');
+Route::view('/home', 'home');
 Route::view('/404', '404');
 Route::view('/details-left-sidebar','blog-details-left-sidebar');
 Route::view('/blog-gallery','blog-gallery-format');
 Route::view('/blog-left','blog-left-sidebar');
 Route::view('/checkout','checkout');
 Route::view('/contact','contact');
+Route::view('/compare','compare');
 Route::view('/faq','faq');
 Route::view('/login-register','login-register');
 Route::view('/shop-left','shop-left-sidebar');

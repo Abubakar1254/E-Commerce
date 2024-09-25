@@ -4,8 +4,8 @@
     
             <!-- Begin Slider With Banner Area -->
             <div class="slider-with-banner">
-                <div class="container">
-                    <div class="row">
+                <div class="container ">
+                    <div class="row mt-3">
                         <!-- Begin Slider Area -->
                         <div class="col-lg-8 col-md-8">
                             <div class="slider-area">
