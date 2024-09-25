@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 
-<!-- blog-left-sidebar31:50-->
+<!-- blog-left31:50-->
 
 <head>
     <meta charset="utf-8">
@@ -10,39 +10,39 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('images/favicon.png')}}">
     <!-- Material Design Iconic Font-V2.2.0 -->
-    <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="{{asset('css/material-design-iconic-font.min.css')}}">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
     <!-- Font Awesome Stars-->
-    <link rel="stylesheet" href="css/fontawesome-stars.css">
+    <link rel="stylesheet" href="{{asset('css/fontawesome-stars.css')}}">
     <!-- Meanmenu CSS -->
-    <link rel="stylesheet" href="css/meanmenu.css">
+    <link rel="stylesheet" href="{{asset('css/meanmenu.css')}}">
     <!-- owl carousel CSS -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
     <!-- Slick Carousel CSS -->
-    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="{{asset('css/slick.css')}}">
     <!-- Animate CSS -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="{{asset('css/animate.css')}}">
     <!-- Jquery-ui CSS -->
-    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="{{asset('css/jquery-ui.min.css')}}">
     <!-- Venobox CSS -->
-    <link rel="stylesheet" href="css/venobox.css">
+    <link rel="stylesheet" href="{{asset('css/venobox.css')}}">
     <!-- Nice Select CSS -->
-    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="{{asset('css/nice-select.css')}}">
     <!-- Magnific Popup CSS -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
     <!-- Bootstrap V4.1.3 Fremwork CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <!-- Helper CSS -->
-    <link rel="stylesheet" href="css/helper.css">
+    <link rel="stylesheet" href="{{asset('css/helper.css')}}">
     <!-- Main Style CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{asset('style.css')}}">
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
     <!-- Modernizr js -->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="{{asset('js/vendor/modernizr-2.8.3.min.js')}}"></script>
 </head>
 
 <body>
@@ -61,7 +61,7 @@
                         <div class="col-lg-3 col-md-4">
                             <div class="header-top-left">
                                 <ul class="phone-wrap">
-                                    <li><span>Telephone Enquiry:</span><a href="#">(+123) 123 321 345</a></li>
+                                    <li><span>Telephone Enquiry:</span><a href="{{asset('#')}}">(+123) 123 321 345</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -75,9 +75,9 @@
                                         <div class="ht-setting-trigger"><span>Setting</span></div>
                                         <div class="setting ht-setting">
                                             <ul class="ht-setting-list">
-                                                <li><a href="login-register ">My Account</a></li>
-                                                <li><a href="checkout ">Checkout</a></li>
-                                                <li><a href="login-register ">Sign In</a></li>
+                                                <li><a href="{{asset('login-register')}}">My Account</a></li>
+                                                <li><a href="{{asset('checkout ')}} ">Checkout</a></li>
+                                                <li><a href="{{asset('login-register ')}} ">Sign In</a></li>
                                             </ul>
                                         </div>
                                     </li>
@@ -88,8 +88,8 @@
                                         <div class="ht-currency-trigger"><span>USD $</span></div>
                                         <div class="currency ht-currency">
                                             <ul class="ht-setting-list">
-                                                <li><a href="#">EUR €</a></li>
-                                                <li class="active"><a href="#">USD $</a></li>
+                                                <li><a href="{{asset('#')}}">EUR €</a></li>
+                                                <li class="active"><a href="{{asset('#')}}">USD $</a></li>
                                             </ul>
                                         </div>
                                     </li>
@@ -100,10 +100,10 @@
                                         <div class="ht-language-trigger"><span>English</span></div>
                                         <div class="language ht-language">
                                             <ul class="ht-setting-list">
-                                                <li class="active"><a href="#"><img
-                                                            src="images/menu/flag-icon/1.jpg" alt="">English</a>
+                                                <li class="active"><a href="{{asset('#')}}"><img
+                                                            src="{{asset('images/menu/flag-icon/1.jpg')}}" alt="">English</a>
                                                 </li>
-                                                <li><a href="#"><img src="images/menu/flag-icon/2.jpg"
+                                                <li><a href="{{asset('#')}}"><img src="{{asset('images/menu/flag-icon/2.jpg')}}"
                                                             alt="">Français</a></li>
                                             </ul>
                                         </div>
@@ -124,8 +124,8 @@
                         <!-- Begin Header Logo Area -->
                         <div class="col-lg-3">
                             <div class="logo pb-sm-30 pb-xs-30">
-                                <a href=" / ">
-                                    <img src="images/menu/logo/1.jpg" alt="">
+                                <a href="{{asset('/')}} ">
+                                    <img src="{{asset('images/menu/logo/1.jpg')}}" alt="">
                                 </a>
                             </div>
                         </div>
@@ -215,7 +215,7 @@
                                 <ul class="hm-menu">
                                     <!-- Begin Header Middle Wishlist Area -->
                                     <li class="hm-wishlist">
-                                        <a href="wishlist ">
+                                        <a href="{{asset('wishlist ')}} ">
                                             <span class="cart-item-count wishlist-item-count">0</span>
                                             <i class="fa fa-heart-o"></i>
                                         </a>
@@ -233,12 +233,12 @@
                                         <div class="minicart">
                                             <ul class="minicart-product-list">
                                                 <li>
-                                                    <a href="single-product " class="minicart-product-image">
-                                                        <img src="images/product/small-size/5.jpg"
+                                                    <a href="{{asset('single-product ')}} " class="minicart-product-image">
+                                                        <img src="{{asset('images/product/small-size/5.jpg')}}"
                                                             alt="cart products">
                                                     </a>
                                                     <div class="minicart-product-details">
-                                                        <h6><a href="single-product ">Aenean eu tristique</a></h6>
+                                                        <h6><a href="{{asset('single-product')}} ">Aenean eu tristique</a></h6>
                                                         <span>£40 x 1</span>
                                                     </div>
                                                     <button class="close" title="Remove">
@@ -246,12 +246,12 @@
                                                     </button>
                                                 </li>
                                                 <li>
-                                                    <a href="single-product " class="minicart-product-image">
-                                                        <img src="images/product/small-size/6.jpg"
+                                                    <a href="{{asset('single-product')}} " class="minicart-product-image">
+                                                        <img src="{{asset('images/product/small-size/6.jpg')}}"
                                                             alt="cart products">
                                                     </a>
                                                     <div class="minicart-product-details">
-                                                        <h6><a href="single-product ">Aenean eu tristique</a></h6>
+                                                        <h6><a href="{{asset('single-product ')}}">Aenean eu tristique</a></h6>
                                                         <span>£40 x 1</span>
                                                     </div>
                                                     <button class="close" title="Remove">
@@ -261,11 +261,11 @@
                                             </ul>
                                             <p class="minicart-total">SUBTOTAL: <span>£80.00</span></p>
                                             <div class="minicart-button">
-                                                <a href="shopping-cart "
+                                                <a href="{{asset('shopping-cart')}} "
                                                     class="li-button li-button-fullwidth li-button-dark">
                                                     <span>View Full Cart</span>
                                                 </a>
-                                                <a href="checkout " class="li-button li-button-fullwidth">
+                                                <a href="{{asset('checkout')}} " class="li-button li-button-fullwidth">
                                                     <span>Checkout</span>
                                                 </a>
                                             </div>
@@ -290,96 +290,94 @@
                             <div class="hb-menu">
                                 <nav>
                                     <ul>
-                                        <li class="dropdown-holder"><a href=" / ">Home</a>
+                                        <li class="dropdown-holder"><a href="{{asset('/')}} ">Home</a>
                                             <ul class="hb-dropdown">
-                                                <li class="active"><a href=" / ">Home One</a></li>
+                                                <li class="active"><a href="{{asset('/')}} ">Home One</a></li>
                                             </ul>
                                         </li>
-                                        <li class="catmenu-dropdown megamenu-holder"><a
-                                                href="shop-left-sidebar ">Shop</a>
+                                        <li class="catmenu-dropdown megamenu-holder"><a href="{{asset('shop-left')}} ">Shop</a>
                                             <ul class="megamenu hb-megamenu">
-                                                <li><a href="shop-left-sidebar ">Shop Page Layout</a>
+                                                <li><a href="{{asset('shop-left ')}}">Shop Page Layout</a>
                                                     <ul>
-                                                        <li><a href="shop-left">Shop Left Sidebar</a></li>
-                                                        <li><a href="shop-list">Shop List</a></li>
-                                                        <li><a href="shop-list-left">Shop List Left Sidebar</a></li>
+                                                        <li><a href="{{asset('shop-left')}}">Shop Left Sidebar</a></li>
+                                                        <li><a href="{{asset('shop-list')}}">Shop List</a></li>
+                                                        <li><a href="{{asset('shop-list-left')}}">Shop List Left Sidebar</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="single-product-gallery-left ">Single Product Style</a>
+                                                <li><a href="{{asset('product-gallery-left ')}}">Single Product Style</a>
                                                     <ul>
-                                                        <li><a href="product-gallery-left ">Single Product Gallery
+                                                        <li><a href="{{asset('product-gallery-left ')}}">Single Product Gallery
                                                                 Left</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="single-product ">Single Products</a>
+                                                <li><a href="{{asset('single-product')}} ">Single Products</a>
                                                     <ul>
-                                                        <li><a href="single-product ">Single Product</a></li>
-                                                        <li><a href="product-sale ">Single Product Sale</a></li>
-                                                        <li><a href="product-normal ">Single Product Normal</a></li>
-                                                        <li><a href="product-affiliate ">Single Product Affiliate</a>
+                                                        <li><a href="{{asset('single-product')}} ">Single Product</a></li>
+                                                        <li><a href="{{asset('product-sale')}} ">Single Product Sale</a></li>
+                                                        <li><a href="{{asset('product-normal')}} ">Single Product Normal</a></li>
+                                                        <li><a href="{{asset('product-affiliate')}} ">Single Product Affiliate</a>
                                                         </li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown-holder"><a href="blog-left-sidebar ">Blog</a>
+                                        <li class="dropdown-holder"><a href="{{asset('blog-left ')}}">Blog</a>
                                             <ul class="hb-dropdown">
-                                                <li class="sub-dropdown-holder"><a href="blog-left-sidebar ">Blog Grid
+                                                <li class="sub-dropdown-holder"><a href="{{asset('blog-left')}} ">Blog Grid
                                                         View</a>
                                                     <ul class="hb-dropdown hb-sub-dropdown">
-                                                        <li><a href="blog-left ">Grid Left Sidebar</a></li>
+                                                        <li><a href="{{asset('blog-left ')}}">Grid Left Sidebar</a></li>
                                                     </ul>
                                                 </li>
-                                                <li class="sub-dropdown-holder"><a
-                                                        href="blog-details-left-sidebar ">Blog Details</a>
+                                                <li class="sub-dropdown-holder"><a href="{{asset('details-left-sidebar')}} ">Blog
+                                                        Details</a>
                                                     <ul class="hb-dropdown hb-sub-dropdown">
-                                                        <li><a href="details-left-sidebar ">Left Sidebar</a></li>
+                                                        <li><a href="{{asset('details-left-sidebar')}} ">Left Sidebar</a></li>
                                                     </ul>
                                                 </li>
-                                                <li class="sub-dropdown-holder"><a href="blog-gallery-format ">Blog
+                                                <li class="sub-dropdown-holder"><a href="{{asset('blog-gallery ')}}">Blog
                                                         Format</a>
                                                     <ul class="hb-dropdown hb-sub-dropdown">
-                                                        <li><a href="blog-gallery">Blog Gallery Format</a></li>
+                                                        <li><a href="{{asset('blog-gallery')}}">Blog Gallery Format</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="catmenu-dropdown megamenu-static-holder"><a
-                                                href=" / ">Pages</a>
+                                                href="{{asset('/')}}">Pages</a>
                                             <ul class="megamenu hb-megamenu">
-                                                <li><a href="blog-left-sidebar ">Blog Layouts</a>
+                                                <li><a href="{{asset('blog-left ')}}">Blog Layouts</a>
                                                     <ul>
-                                                        <li><a href="blog-left">Grid Left Sidebar</a></li>
+                                                        <li><a href="{{asset('blog-left')}}">Grid Left Sidebar</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="blog-details-left-sidebar ">Blog Details Pages</a>
+                                                <li><a href="{{asset('details-left-sidebar')}} ">Blog Details Pages</a>
                                                     <ul>
-                                                        <li><a href="details-left-sidebar ">Left Sidebar</a></li>
-                                                        <li><a href="blog-gallery">Blog Gallery Format</a></li>
+                                                        <li><a href="{{asset('details-left-sidebar ')}}">Left Sidebar</a></li>
+                                                        <li><a href="{{asset('blog-gallery')}}">Blog Gallery Format</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href=" / ">Other Pages</a>
+                                                <li><a href="{{asset('/')}}">Other Pages</a>
                                                     <ul>
-                                                        <li><a href="login-register ">My Account</a></li>
-                                                        <li><a href="checkout ">Checkout</a></li>
-                                                        <li><a href="compare ">Compare</a></li>
-                                                        <li><a href="wishlist ">Wishlist</a></li>
-                                                        <li><a href="shopping-cart ">Shopping Cart</a></li>
+                                                        <li><a href="{{asset('login-register')}} ">My Account</a></li>
+                                                        <li><a href="{{asset('checkout')}} ">Checkout</a></li>
+                                                        <li><a href="{{asset('compare ')}}">Compare</a></li>
+                                                        <li><a href="{{asset('wishlist ')}}">Wishlist</a></li>
+                                                        <li><a href="{{asset('shopping-cart ')}}">Shopping Cart</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href=" / ">Other Pages 2</a>
+                                                <li><a href="{{asset('/')}} ">Other Pages 2</a>
                                                     <ul>
-                                                        <li><a href="contact ">Contact</a></li>
-                                                        <li><a href="faq ">FAQ</a></li>
-                                                        <li><a href="404 ">404 Error</a></li>
+                                                        <li><a href="{{asset('contact')}} ">Contact</a></li>
+                                                        <li><a href="{{asset('faq')}} ">FAQ</a></li>
+                                                        <li><a href="{{asset('404')}} ">404 Error</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="about-us ">About Us</a></li>
-                                        <li><a href="contact ">Contact</a></li>
-                                        <li><a href="shop-left">Smartwatch</a></li>
-                                        <li><a href="shop-left">Accessories</a></li>
+                                        <li><a href="{{asset('contact')}} ">Contact</a></li>
+                                        <li><a href="{{asset('shop-left')}}">Smartwatch</a></li>
+                                        <li><a href="{{asset('shop-left')}}">Accessories</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -416,7 +414,7 @@
                             <div class="col-lg-3 col-md-6 col-sm-6 pb-sm-55 pb-xs-55">
                                 <div class="li-shipping-inner-box">
                                     <div class="shipping-icon">
-                                        <img src="images/shipping-icon/1.png" alt="Shipping Icon">
+                                        <img src="{{asset('images/shipping-icon/1.png')}}" alt="Shipping Icon">
                                     </div>
                                     <div class="shipping-text">
                                         <h2>Free Delivery</h2>
@@ -429,7 +427,7 @@
                             <div class="col-lg-3 col-md-6 col-sm-6 pb-sm-55 pb-xs-55">
                                 <div class="li-shipping-inner-box">
                                     <div class="shipping-icon">
-                                        <img src="images/shipping-icon/2.png" alt="Shipping Icon">
+                                        <img src="{{asset('images/shipping-icon/2.png')}}" alt="Shipping Icon">
                                     </div>
                                     <div class="shipping-text">
                                         <h2>Safe Payment</h2>
@@ -442,7 +440,7 @@
                             <div class="col-lg-3 col-md-6 col-sm-6 pb-xs-30">
                                 <div class="li-shipping-inner-box">
                                     <div class="shipping-icon">
-                                        <img src="images/shipping-icon/3.png" alt="Shipping Icon">
+                                        <img src="{{asset('images/shipping-icon/3.png')}}" alt="Shipping Icon">
                                     </div>
                                     <div class="shipping-text">
                                         <h2>Shop with Confidence</h2>
@@ -455,7 +453,7 @@
                             <div class="col-lg-3 col-md-6 col-sm-6 pb-xs-30">
                                 <div class="li-shipping-inner-box">
                                     <div class="shipping-icon">
-                                        <img src="images/shipping-icon/4.png" alt="Shipping Icon">
+                                        <img src="{{asset('images/shipping-icon/4.png')}}" alt="Shipping Icon">
                                     </div>
                                     <div class="shipping-text">
                                         <h2>24/7 Help Center</h2>
@@ -478,7 +476,7 @@
                             <!-- Begin Footer Logo Area -->
                             <div class="col-lg-4 col-md-6">
                                 <div class="footer-logo">
-                                    <img src="images/menu/logo/1.jpg" alt="Footer Logo">
+                                    <img src="{{asset('images/menu/logo/1.jpg')}}" alt="Footer Logo">
                                     <p class="info">
                                         We are a team of designers and developers that create high quality HTML Template
                                         & Woocommerce, Shopify Theme.
@@ -491,7 +489,7 @@
                                     </li>
                                     <li>
                                         <span>Phone: </span>
-                                        <a href="#">(+123) 123 321 345</a>
+                                        <a href="{{asset('#')}}">(+123) 123 321 345</a>
                                     </li>
                                     <li>
                                         <span>Email: </span>
@@ -505,10 +503,10 @@
                                 <div class="footer-block">
                                     <h3 class="footer-block-title">Product</h3>
                                     <ul>
-                                        <li><a href="#">Prices drop</a></li>
-                                        <li><a href="#">New products</a></li>
-                                        <li><a href="#">Best sales</a></li>
-                                        <li><a href="#">Contact us</a></li>
+                                        <li><a href="{{asset('#')}}">Prices drop</a></li>
+                                        <li><a href="{{asset('#')}}">New products</a></li>
+                                        <li><a href="{{asset('#')}}">Best sales</a></li>
+                                        <li><a href="{{asset('#')}}">Contact us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -518,10 +516,10 @@
                                 <div class="footer-block">
                                     <h3 class="footer-block-title">Our company</h3>
                                     <ul>
-                                        <li><a href="#">Delivery</a></li>
-                                        <li><a href="#">Legal Notice</a></li>
-                                        <li><a href="#">About us</a></li>
-                                        <li><a href="#">Contact us</a></li>
+                                        <li><a href="{{asset('#')}}">Delivery</a></li>
+                                        <li><a href="{{asset('#')}}">Legal Notice</a></li>
+                                        <li><a href="{{asset('#')}}">About us</a></li>
+                                        <li><a href="{{asset('#')}}">Contact us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -600,32 +598,32 @@
                             <!-- Begin Footer Links Area -->
                             <div class="footer-links">
                                 <ul>
-                                    <li><a href="#">Online Shopping</a></li>
-                                    <li><a href="#">Promotions</a></li>
-                                    <li><a href="#">My Orders</a></li>
-                                    <li><a href="#">Help</a></li>
-                                    <li><a href="#">Customer Service</a></li>
-                                    <li><a href="#">Support</a></li>
-                                    <li><a href="#">Most Populars</a></li>
-                                    <li><a href="#">New Arrivals</a></li>
-                                    <li><a href="#">Special Products</a></li>
-                                    <li><a href="#">Manufacturers</a></li>
-                                    <li><a href="#">Our Stores</a></li>
-                                    <li><a href="#">Shipping</a></li>
-                                    <li><a href="#">Payments</a></li>
-                                    <li><a href="#">Warantee</a></li>
-                                    <li><a href="#">Refunds</a></li>
-                                    <li><a href="#">Checkout</a></li>
-                                    <li><a href="#">Discount</a></li>
-                                    <li><a href="#">Refunds</a></li>
-                                    <li><a href="#">Policy Shipping</a></li>
+                                    <li><a href="{{asset('#')}}">Online Shopping</a></li>
+                                    <li><a href="{{asset('#')}}">Promotions</a></li>
+                                    <li><a href="{{asset('#')}}">My Orders</a></li>
+                                    <li><a href="{{asset('#')}}">Help</a></li>
+                                    <li><a href="{{asset('#')}}">Customer Service</a></li>
+                                    <li><a href="{{asset('#')}}">Support</a></li>
+                                    <li><a href="{{asset('#')}}">Most Populars</a></li>
+                                    <li><a href="{{asset('#')}}">New Arrivals</a></li>
+                                    <li><a href="{{asset('#')}}">Special Products</a></li>
+                                    <li><a href="{{asset('#')}}">Manufacturers</a></li>
+                                    <li><a href="{{asset('#')}}">Our Stores</a></li>
+                                    <li><a href="{{asset('#')}}">Shipping</a></li>
+                                    <li><a href="{{asset('#')}}">Payments</a></li>
+                                    <li><a href="{{asset('#')}}">Warantee</a></li>
+                                    <li><a href="{{asset('#')}}">Refunds</a></li>
+                                    <li><a href="{{asset('#')}}">Checkout</a></li>
+                                    <li><a href="{{asset('#')}}">Discount</a></li>
+                                    <li><a href="{{asset('#')}}">Refunds</a></li>
+                                    <li><a href="{{asset('#')}}">Policy Shipping</a></li>
                                 </ul>
                             </div>
                             <!-- Footer Links Area End Here -->
                             <!-- Begin Footer Payment Area -->
                             <div class="copyright text-center">
-                                <a href="#">
-                                    <img src="images/payment/1.png" alt="">
+                                <a href="{{asset('#')}}">
+                                    <img src="{{asset('images/payment/1.png')}}" alt="">
                                 </a>
                             </div>
                             <!-- Footer Payment Area End Here -->
@@ -655,36 +653,36 @@
                                 <div class="product-details-left">
                                     <div class="product-details-images slider-navigation-1">
                                         <div class="lg-image">
-                                            <img src="images/product/large-size/1.jpg" alt="product image">
+                                            <img src="{{asset('images/product/large-size/1.jpg')}}" alt="product image">
                                         </div>
                                         <div class="lg-image">
-                                            <img src="images/product/large-size/2.jpg" alt="product image">
+                                            <img src="{{asset('images/product/large-size/2.jpg')}}" alt="product image">
                                         </div>
                                         <div class="lg-image">
-                                            <img src="images/product/large-size/3.jpg" alt="product image">
+                                            <img src="{{asset('images/product/large-size/3.jpg')}}" alt="product image">
                                         </div>
                                         <div class="lg-image">
-                                            <img src="images/product/large-size/4.jpg" alt="product image">
+                                            <img src="{{asset('images/product/large-size/4.jpg')}}" alt="product image">
                                         </div>
                                         <div class="lg-image">
-                                            <img src="images/product/large-size/5.jpg" alt="product image">
+                                            <img src="{{asset('images/product/large-size/5.jpg')}}" alt="product image">
                                         </div>
                                         <div class="lg-image">
-                                            <img src="images/product/large-size/6.jpg" alt="product image">
+                                            <img src="{{asset('images/product/large-size/6.jpg')}}" alt="product image">
                                         </div>
                                     </div>
                                     <div class="product-details-thumbs slider-thumbs-1">
-                                        <div class="sm-image"><img src="images/product/small-size/1.jpg"
+                                        <div class="sm-image"><img src="{{asset('images/product/small-size/1.jpg')}}"
                                                 alt="product image thumb"></div>
-                                        <div class="sm-image"><img src="images/product/small-size/2.jpg"
+                                        <div class="sm-image"><img src="{{asset('images/product/small-size/2.jpg')}}"
                                                 alt="product image thumb"></div>
-                                        <div class="sm-image"><img src="images/product/small-size/3.jpg"
+                                        <div class="sm-image"><img src="{{asset('images/product/small-size/3.jpg')}}"
                                                 alt="product image thumb"></div>
-                                        <div class="sm-image"><img src="images/product/small-size/4.jpg"
+                                        <div class="sm-image"><img src="{{asset('images/product/small-size/4.jpg')}}"
                                                 alt="product image thumb"></div>
-                                        <div class="sm-image"><img src="images/product/small-size/5.jpg"
+                                        <div class="sm-image"><img src="{{asset('images/product/small-size/5.jpg')}}"
                                                 alt="product image thumb"></div>
-                                        <div class="sm-image"><img src="images/product/small-size/6.jpg"
+                                        <div class="sm-image"><img src="{{asset('images/product/small-size/6.jpg')}}"
                                                 alt="product image thumb"></div>
                                     </div>
                                 </div>
@@ -703,8 +701,8 @@
                                                 <li><i class="fa fa-star-o"></i></li>
                                                 <li class="no-star"><i class="fa fa-star-o"></i></li>
                                                 <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                <li class="review-item"><a href="#">Read Review</a></li>
-                                                <li class="review-item"><a href="#">Write Review</a></li>
+                                                <li class="review-item"><a href="{{asset('#')}}">Read Review</a></li>
+                                                <li class="review-item"><a href="{{asset('#')}}">Write Review</a></li>
                                             </ul>
                                         </div>
                                         <div class="price-box pt-20">
@@ -747,17 +745,17 @@
                                             </form>
                                         </div>
                                         <div class="product-additional-info pt-25">
-                                            <a class="wishlist-btn" href="wishlist "><i class="fa fa-heart-o"></i>Add
+                                            <a class="wishlist-btn" href="{{asset('wishlist ')}}"><i class="fa fa-heart-o"></i>Add
                                                 to wishlist</a>
                                             <div class="product-social-sharing pt-25">
                                                 <ul>
-                                                    <li class="facebook"><a href="#"><i
+                                                    <li class="facebook"><a href="{{asset('#')}}"><i
                                                                 class="fa fa-facebook"></i>Facebook</a></li>
-                                                    <li class="twitter"><a href="#"><i
+                                                    <li class="twitter"><a href="{{asset('#')}}"><i
                                                                 class="fa fa-twitter"></i>Twitter</a></li>
-                                                    <li class="google-plus"><a href="#"><i
+                                                    <li class="google-plus"><a href="{{asset('#')}}"><i
                                                                 class="fa fa-google-plus"></i>Google +</a></li>
-                                                    <li class="instagram"><a href="#"><i
+                                                    <li class="instagram"><a href="{{asset('#')}}"><i
                                                                 class="fa fa-instagram"></i>Instagram</a></li>
                                                 </ul>
                                             </div>
@@ -774,242 +772,245 @@
     </div>
     <!-- Body Wrapper End Here -->
     <!-- jQuery-V1.12.4 -->
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="{{asset('js/vendor/jquery-1.12.4.min.js')}}"></script>
     <!-- Popper js -->
-    <script src="js/vendor/popper.min.js"></script>
+    <script src="{{asset('js/vendor/popper.min.js')}}"></script>
     <!-- Bootstrap V4.1.3 Fremwork js -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
     <!-- Ajax Mail js -->
-    <script src="js/ajax-mail.js"></script>
+    <script src="{{asset('js/ajax-mail.js')}}"></script>
     <!-- Meanmenu js -->
-    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="{{asset('js/jquery.meanmenu.min.js')}}"></script>
     <!-- Wow.min js -->
-    <script src="js/wow.min.js"></script>
+    <script src="{{asset('js/wow.min.js')}}"></script>
     <!-- Slick Carousel js -->
-    <script src="js/slick.min.js"></script>
+    <script src="{{asset('js/slick.min.js')}}"></script>
     <!-- Owl Carousel-2 js -->
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="{{asset('js/owl.carousel.min.js')}}"></script>
     <!-- Magnific popup js -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
     <!-- Isotope js -->
-    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="{{asset('js/isotope.pkgd.min.js')}}"></script>
     <!-- Imagesloaded js -->
-    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="{{asset('js/imagesloaded.pkgd.min.js')}}"></script>
     <!-- Mixitup js -->
-    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="{{asset('js/jquery.mixitup.min.js')}}"></script>
     <!-- Countdown -->
-    <script src="js/jquery.countdown.min.js"></script>
+    <script src="{{asset('js/jquery.countdown.min.js')}}"></script>
     <!-- Counterup -->
-    <script src="js/jquery.counterup.min.js"></script>
+    <script src="{{asset('js/jquery.counterup.min.js')}}"></script>
     <!-- Waypoints -->
-    <script src="js/waypoints.min.js"></script>
+    <script src="{{asset('js/waypoints.min.js')}}"></script>
     <!-- Barrating -->
-    <script src="js/jquery.barrating.min.js"></script>
+    <script src="{{asset('js/jquery.barrating.min.js')}}"></script>
     <!-- Jquery-ui -->
-    <script src="js/jquery-ui.min.js"></script>
+    <script src="{{asset('js/jquery-ui.min.js')}}"></script>
     <!-- Venobox -->
-    <script src="js/venobox.min.js"></script>
+    <script src="{{asset('js/venobox.min.js')}}"></script>
     <!-- Nice Select js -->
-    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="{{asset('js/jquery.nice-select.min.js')}}"></script>
     <!-- ScrollUp js -->
-    <script src="js/scrollUp.min.js"></script>
+    <script src="{{asset('js/scrollUp.min.js')}}"></script>
     <!-- Main/Activator js -->
-    <script src="js/main.js"></script>
-        <!-- Google Map -->
-        <script src="https://maps.google.com/maps/api/js?sensor=false&amp;libraries=geometry&amp;v=3.22&amp;key=AIzaSyChs2QWiAhnzz0a4OEhzqCXwx_qA9ST_lE"></script>
-        
-        <script>
-            // When the window has finished loading create our google map below
-            google.maps.event.addDomListener(window, 'load', init);
-            function init() {
-                // Basic options for a simple Google Map
-                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-                var mapOptions = {
-                    // How zoomed in you want the map to start at (always required)
-                    zoom: 12,
-                    scrollwheel: false,
-                    // The latitude and longitude to center the map (always required)
-                    center: new google.maps.LatLng(40.740610, -73.935242), // New York
-                    // How you would like to style the map. 
-                    // This is where you would paste any style found on
-                    styles: [{
-                            "featureType": "water",
-                            "elementType": "geometry",
-                            "stylers": [{
-                                    "color": "#e9e9e9"
-                                },
-                                {
-                                    "lightness": 17
-                                }
-                            ]
-                        },
-                        {
-                            "featureType": "landscape",
-                            "elementType": "geometry",
-                            "stylers": [{
-                                    "color": "#f5f5f5"
-                                },
-                                {
-                                    "lightness": 20
-                                }
-                            ]
-                        },
-                        {
-                            "featureType": "road.highway",
-                            "elementType": "geometry.fill",
-                            "stylers": [{
-                                    "color": "#ffffff"
-                                },
-                                {
-                                    "lightness": 17
-                                }
-                            ]
-                        },
-                        {
-                            "featureType": "road.highway",
-                            "elementType": "geometry.stroke",
-                            "stylers": [{
-                                    "color": "#ffffff"
-                                },
-                                {
-                                    "lightness": 29
-                                },
-                                {
-                                    "weight": 0.2
-                                }
-                            ]
-                        },
-                        {
-                            "featureType": "road.arterial",
-                            "elementType": "geometry",
-                            "stylers": [{
-                                    "color": "#ffffff"
-                                },
-                                {
-                                    "lightness": 18
-                                }
-                            ]
-                        },
-                        {
-                            "featureType": "road.local",
-                            "elementType": "geometry",
-                            "stylers": [{
-                                    "color": "#ffffff"
-                                },
-                                {
-                                    "lightness": 16
-                                }
-                            ]
-                        },
-                        {
-                            "featureType": "poi",
-                            "elementType": "geometry",
-                            "stylers": [{
-                                    "color": "#f5f5f5"
-                                },
-                                {
-                                    "lightness": 21
-                                }
-                            ]
-                        },
-                        {
-                            "featureType": "poi.park",
-                            "elementType": "geometry",
-                            "stylers": [{
-                                    "color": "#dedede"
-                                },
-                                {
-                                    "lightness": 21
-                                }
-                            ]
-                        },
-                        {
-                            "elementType": "labels.text.stroke",
-                            "stylers": [{
-                                    "visibility": "on"
-                                },
-                                {
-                                    "color": "#ffffff"
-                                },
-                                {
-                                    "lightness": 16
-                                }
-                            ]
-                        },
-                        {
-                            "elementType": "labels.text.fill",
-                            "stylers": [{
-                                    "saturation": 36
-                                },
-                                {
-                                    "color": "#333333"
-                                },
-                                {
-                                    "lightness": 40
-                                }
-                            ]
-                        },
-                        {
-                            "elementType": "labels.icon",
-                            "stylers": [{
-                                "visibility": "off"
-                            }]
-                        },
-                        {
-                            "featureType": "transit",
-                            "elementType": "geometry",
-                            "stylers": [{
-                                    "color": "#f2f2f2"
-                                },
-                                {
-                                    "lightness": 19
-                                }
-                            ]
-                        },
-                        {
-                            "featureType": "administrative",
-                            "elementType": "geometry.fill",
-                            "stylers": [{
-                                    "color": "#fefefe"
-                                },
-                                {
-                                    "lightness": 20
-                                }
-                            ]
-                        },
-                        {
-                            "featureType": "administrative",
-                            "elementType": "geometry.stroke",
-                            "stylers": [{
-                                    "color": "#fefefe"
-                                },
-                                {
-                                    "lightness": 17
-                                },
-                                {
-                                    "weight": 1.2
-                                }
-                            ]
-                        }
-                    ]
-                };
+    <script src="{{asset('js/main.js')}}"></script>
+    <!-- Google Map -->
+    <script
+        src="https://maps.google.com/maps/api/js?sensor=false&amp;libraries=geometry&amp;v=3.22&amp;key=AIzaSyChs2QWiAhnzz0a4OEhzqCXwx_qA9ST_lE">
+    </script>
 
-                // Get the HTML DOM element that will contain your map 
-                // We are using a div with id="map" seen below in the <body>
-                var mapElement = document.getElementById('google-map');
+    <script>
+        // When the window has finished loading create our google map below
+        google.maps.event.addDomListener(window, 'load', init);
 
-                // Create the Google Map using our element and options defined above
-                var map = new google.maps.Map(mapElement, mapOptions);
+        function init() {
+            // Basic options for a simple Google Map
+            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+            var mapOptions = {
+                // How zoomed in you want the map to start at (always required)
+                zoom: 12,
+                scrollwheel: false,
+                // The latitude and longitude to center the map (always required)
+                center: new google.maps.LatLng(40.740610, -73.935242), // New York
+                // How you would like to style the map. 
+                // This is where you would paste any style found on
+                styles: [{
+                        "featureType": "water",
+                        "elementType": "geometry",
+                        "stylers": [{
+                                "color": "#e9e9e9"
+                            },
+                            {
+                                "lightness": 17
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "landscape",
+                        "elementType": "geometry",
+                        "stylers": [{
+                                "color": "#f5f5f5"
+                            },
+                            {
+                                "lightness": 20
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway",
+                        "elementType": "geometry.fill",
+                        "stylers": [{
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 17
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway",
+                        "elementType": "geometry.stroke",
+                        "stylers": [{
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 29
+                            },
+                            {
+                                "weight": 0.2
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.arterial",
+                        "elementType": "geometry",
+                        "stylers": [{
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 18
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.local",
+                        "elementType": "geometry",
+                        "stylers": [{
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 16
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi",
+                        "elementType": "geometry",
+                        "stylers": [{
+                                "color": "#f5f5f5"
+                            },
+                            {
+                                "lightness": 21
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi.park",
+                        "elementType": "geometry",
+                        "stylers": [{
+                                "color": "#dedede"
+                            },
+                            {
+                                "lightness": 21
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.text.stroke",
+                        "stylers": [{
+                                "visibility": "on"
+                            },
+                            {
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 16
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.text.fill",
+                        "stylers": [{
+                                "saturation": 36
+                            },
+                            {
+                                "color": "#333333"
+                            },
+                            {
+                                "lightness": 40
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.icon",
+                        "stylers": [{
+                            "visibility": "off"
+                        }]
+                    },
+                    {
+                        "featureType": "transit",
+                        "elementType": "geometry",
+                        "stylers": [{
+                                "color": "#f2f2f2"
+                            },
+                            {
+                                "lightness": 19
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "administrative",
+                        "elementType": "geometry.fill",
+                        "stylers": [{
+                                "color": "#fefefe"
+                            },
+                            {
+                                "lightness": 20
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "administrative",
+                        "elementType": "geometry.stroke",
+                        "stylers": [{
+                                "color": "#fefefe"
+                            },
+                            {
+                                "lightness": 17
+                            },
+                            {
+                                "weight": 1.2
+                            }
+                        ]
+                    }
+                ]
+            };
 
-                // Let's also add a marker while we're at it
-                var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(40.740610, -73.935242),
-                    map: map,
-                    title: 'Limupa',
-                    animation: google.maps.Animation.BOUNCE
-                });
-            }
-        </script>
+            // Get the HTML DOM element that will contain your map 
+            // We are using a div with id="map" seen below in the <body>
+            var mapElement = document.getElementById('google-map');
+
+            // Create the Google Map using our element and options defined above
+            var map = new google.maps.Map(mapElement, mapOptions);
+
+            // Let's also add a marker while we're at it
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(40.740610, -73.935242),
+                map: map,
+                title: 'Limupa',
+                animation: google.maps.Animation.BOUNCE
+            });
+        }
+    </script>
 </body>
 
 <!--  /30:23-->
